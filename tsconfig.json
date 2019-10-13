@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strictNullChecks": true,
+      "noImplicitAny": true,
+      "target": "esnext",
+      //"outDir": "src",
+      "lib": [
+        "es2017",
+        "esnext.bigint",
+        "dom"
+      ]
+    }
+}

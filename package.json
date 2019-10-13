@@ -1,0 +1,24 @@
+{
+  "name": "becash-demo",
+  "version": "0.1.0",
+  "description": "Demo for be.cash",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "webpack"
+  },
+  "author": "Tobias Ruck",
+  "license": "MIT",
+  "dependencies": {
+    "becash": "file:../becash/becash-package"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.12.4",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
